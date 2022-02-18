@@ -52,7 +52,7 @@ coverage.xml
 cover/
 
 # Ignore the pre-trained model
-model/
+ckpt/
 
 # Translations
 *.mo
