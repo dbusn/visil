@@ -3,7 +3,7 @@ from datasets import load_video
 import sys
 
 # Load the two videos from the video files
-print('examples/' + sys.argv[1] + '.json')
+print('examples/' + sys.argv[1] + '.gif')
 
 query_video = load_video('examples/' + sys.argv[1] + '.gif')
 target_video = load_video('examples/' + sys.argv[2] + '.gif')
